@@ -1,0 +1,140 @@
+
+:root{
+    --background-color: rgb(249, 249, 249);
+    --card-h3-color: rgb(215, 45, 130);
+    --card-background: rgb(9, 9, 9);
+    --card-text-color-white: rgb(255, 255, 255);
+    --card-text-color-blue: rgb(1, 153, 255);
+    --card-shadow: rgba(0, 0, 0, 0.287) 0px 10px 50px;
+    
+}
+
+
+
+*{  
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+
+
+
+
+header section h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 50px 0 50px 0;
+    color: var(--card-h3-color);
+}
+
+.section-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.text-contain p{
+    text-align: center;
+}
+
+
+
+
+
+
+.section-card{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.card-containter{
+    float: left;
+    width: calc(100% / 3);
+    color: var(--card-text-color-white);
+    border-radius: 3px; 
+    padding: 30px 20px 30px 20px;
+}
+.card{
+    background-color: var(--card-background); 
+    color: var(--card-text-color-white);
+    border-radius: 3px; 
+    box-shadow: var(--card-shadow);
+}
+
+    
+
+.card-text, .card-img{
+    display: inline-block;  
+}
+
+.card-img{
+    width: 130px;
+    height: 130px;
+}
+
+.card-img img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.card-text{
+    vertical-align: 90%;
+}
+
+.card-text h3, p{
+    margin: 10px 0 10px 10px;
+}
+
+
+.email-text{
+    color: var(--card-text-color-blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section-card-contain{
+    background-color: brown;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+
+}
+
+.card1{
+    
+    float: left;
+    width: calc(100% / 3);
+    background-color: rgb(24, 24, 24);
+}
+
+
+
+
+.card-img img{
+    width: 130px;
+    float: left;
+    
+}
+
+.card-text h3, p{
+    color: white;
+
+} */
