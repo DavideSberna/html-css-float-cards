@@ -1,0 +1,165 @@
+/* create all color-tranform root variable */
+:root{
+    --background-color: rgb(249, 249, 249);
+    --card-h3-color: rgb(215, 45, 130);
+    --card-background: rgb(9, 9, 9);
+    --card-text-color-white: rgb(255, 255, 255);
+    --card-text-color-blue: rgb(1, 153, 255);
+    --card-shadow: rgba(0, 0, 0, 0.287) 0px 10px 50px;   
+}
+
+
+/* set generic params, margin-paddin reset */
+*{  
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: var(--background-color);
+}
+
+
+
+
+/* header setting title */
+header section h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 50px 0 50px 0;
+    color: var(--card-h3-color);
+}
+
+/* first section of main (center p text-align) */
+.section-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.text-contain p{
+    text-align: center;
+}
+
+
+
+
+
+/* set center section of all container cards */
+.section-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.card-containter{
+    width: calc(100% / 3);
+    color: var(--card-text-color-white);
+    border-radius: 3px; 
+    padding: 30px 20px 30px 20px;
+    min-width: 300px;
+}
+
+
+
+
+
+/* setting of single card */
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+    background-color: var(--card-background); 
+    color: var(--card-text-color-white);
+    border-radius: 3px; 
+    box-shadow: var(--card-shadow);
+    width: 100%;     
+}
+
+
+
+/* div of img(child) */
+.card-img{
+    width: 140px;
+    height: 140px;
+}
+
+
+/* img of card-img(container) */
+.card-img img{
+    width: 100%;  
+}
+
+
+/* div of all text(child) */
+.card-text{
+    padding-left: 12px;
+}
+
+
+/* elements of all card-text(container) */
+.card-text h3, p{
+    padding: 5px;
+}
+
+/* transform h3 name to uppercase */
+.card-text h3{
+    text-transform: uppercase;
+}
+.email-text{
+    color: var(--card-text-color-blue);
+}
+
+
+
+
+
+.section-form div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    color: var(--card-h3-color);
+    margin: 80px 0 30px 0;
+}
+.section-form div:nth-child(2){
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 200px;
+}
+
+
+div form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 30px;  
+}
+
+form label{
+    margin: 10px 0 3px 0;
+}
+
+#email-input, #name-input, #job-input, #email-input{
+    border: solid var(--card-h3-color) 2px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#submit-button{
+    background-color: var(--card-h3-color);
+    color: var(--card-text-color-white);
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
