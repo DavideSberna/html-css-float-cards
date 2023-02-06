@@ -33,7 +33,7 @@ submitButton.addEventListener("click", () =>{
     textEmail.className = "email-text"
     
 
-    img.src = imgUpload.src;
+    img.value = imgUpload.value;
     textH3.innerHTML = nameInput.value
     textJob.innerHTML = jobInput.value
     textEmail.innerHTML = emailInput.value
